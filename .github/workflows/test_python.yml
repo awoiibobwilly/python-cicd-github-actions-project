@@ -22,7 +22,7 @@ jobs:
       run: pytest
 
   lint:
-    #needs: test
+    needs: test
     runs-on: ubuntu-latest
 
     steps:
